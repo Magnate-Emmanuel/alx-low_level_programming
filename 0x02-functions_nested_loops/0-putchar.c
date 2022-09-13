@@ -1,20 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * void - empty
- *
- * Return: Always 0 (Success)
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char holberton[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-	int i;
-	int size = sizeof(holberton) / sizeof(char);
+	char abe[] = "_putchar";
 
-	for (i = 0; i < size; i++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(holberton[i]);
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
 	return (0);
